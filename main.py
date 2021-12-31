@@ -5,7 +5,7 @@ import pygame
 class mandelbrot:
 	def __init__(self):
 		self.zoom = (4.0, 4.0)
-		self.screen_size = (1000,1000)
+		self.screen_size = (800,800)
 		pygame.init()
 		self.screen = pygame.display.set_mode(self.screen_size)
 		pygame.display.set_caption('mandelbrot')
